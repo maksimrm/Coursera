@@ -1,0 +1,3 @@
+/Users/maksimeliseev/Documents/Programs/C++/coursera/белый пояс/Минимальная строка/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maksimeliseev/Documents/Programs/C++/coursera/белый пояс/Минимальная строка/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maksimeliseev/Documents/Programs/C++/coursera/белый пояс/Минимальная строка/cmake-build-debug/CMakeFiles/_.dir

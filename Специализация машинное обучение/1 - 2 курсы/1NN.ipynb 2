@@ -1,0 +1,194 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from sklearn import datasets\n",
+    "from sklearn.model_selection import train_test_split\n",
+    "import numpy as np\n",
+    "from sklearn.ensemble import RandomForestClassifier"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "digits = datasets.load_digits()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y = digits['target']\n",
+    "X = digits['data']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "X_train, X_test = train_test_split(X, shuffle = False)\n",
+    "y_train, y_test = train_test_split(y, shuffle = False)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def distance(x_train, x_test):\n",
+    "    dist = 0\n",
+    "    for i in range(len(x_train)):\n",
+    "        dist += (x_train[i]-x_test[i])**2\n",
+    "    return dist**0.5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def make_prediction(X_train, y_train, x):\n",
+    "    array_dist = []\n",
+    "    for i in range(len(y_train)):\n",
+    "        array_dist.append(distance(X_train[i], x))\n",
+    "    ans = y_train[0]\n",
+    "    c = array_dist[0]\n",
+    "    for i in range(1, len(y_train)):\n",
+    "        if c >= array_dist[i] :\n",
+    "            c = array_dist[i]\n",
+    "            ans = y_train[i]\n",
+    "    return ans\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def error(X_train, y_train, X_test, y_test):\n",
+    "    number_correct_answers = 0.\n",
+    "    for i in range(len(y_test)):\n",
+    "        if make_prediction(X_train, y_train, X_test[i]) == y_test[i]:\n",
+    "            number_correct_answers +=1\n",
+    "    return number_correct_answers/len(y_test)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "er = error(X_train, y_train, X_test, y_test)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0.962222222222\n"
+     ]
+    }
+   ],
+   "source": [
+    "print er\n",
+    "def write_answer_1(er):\n",
+    "    with open(\"answer1.txt\", \"w\") as fout:\n",
+    "        fout.write(str(er))\n",
+    "write_answer_1(1-er)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "estimator = RandomForestClassifier(n_estimators=1000)\n",
+    "estimator.fit(X_train, y_train)\n",
+    "answers = estimator.predict(X_test)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0.933333333333\n"
+     ]
+    }
+   ],
+   "source": [
+    "number_correct_answers = 0.\n",
+    "for i in range(len(y_test)):\n",
+    "    if answers[i] == y_test[i]:\n",
+    "        number_correct_answers +=1\n",
+    "er2 = number_correct_answers/len(y_test)\n",
+    "print er2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def write_answer_2(er):\n",
+    "    with open(\"answer2.txt\", \"w\") as fout:\n",
+    "        fout.write(str(er))\n",
+    "write_answer_2(1-er2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.15"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

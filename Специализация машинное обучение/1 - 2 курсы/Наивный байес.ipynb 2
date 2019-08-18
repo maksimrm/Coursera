@@ -1,0 +1,185 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from sklearn import datasets\n",
+    "from sklearn.model_selection import cross_val_score\n",
+    "from sklearn.naive_bayes import BernoulliNB, MultinomialNB,  GaussianNB"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "digits = datasets.load_digits()\n",
+    "breast_cancer   = datasets.load_breast_cancer()\n",
+    "digits_target = digits['target']\n",
+    "digits_data = digits['data']\n",
+    "\n",
+    "breast_cancer_target = breast_cancer['target']\n",
+    "breast_cancer_data = breast_cancer['data']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([[1.799e+01, 1.038e+01, 1.228e+02, ..., 2.654e-01, 4.601e-01,\n",
+       "        1.189e-01],\n",
+       "       [2.057e+01, 1.777e+01, 1.329e+02, ..., 1.860e-01, 2.750e-01,\n",
+       "        8.902e-02],\n",
+       "       [1.969e+01, 2.125e+01, 1.300e+02, ..., 2.430e-01, 3.613e-01,\n",
+       "        8.758e-02],\n",
+       "       ...,\n",
+       "       [1.660e+01, 2.808e+01, 1.083e+02, ..., 1.418e-01, 2.218e-01,\n",
+       "        7.820e-02],\n",
+       "       [2.060e+01, 2.933e+01, 1.401e+02, ..., 2.650e-01, 4.087e-01,\n",
+       "        1.240e-01],\n",
+       "       [7.760e+00, 2.454e+01, 4.792e+01, ..., 0.000e+00, 2.871e-01,\n",
+       "        7.039e-02]])"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "breast_cancer_data"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0.8258236507780582\n",
+      "0.6274204028589994\n"
+     ]
+    }
+   ],
+   "source": [
+    "optimizer = BernoulliNB()\n",
+    "array_11 = cross_val_score(optimizer, digits_data, digits_target)\n",
+    "array_12 = cross_val_score(optimizer, breast_cancer_data, breast_cancer_target)\n",
+    "print array_11.mean()\n",
+    "print array_12.mean()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0.8708771489735053\n",
+      "0.8945790401930752\n"
+     ]
+    }
+   ],
+   "source": [
+    "optimizer = MultinomialNB()\n",
+    "array_21 = cross_val_score(optimizer, digits_data, digits_target)\n",
+    "array_22 = cross_val_score(optimizer, breast_cancer_data, breast_cancer_target)\n",
+    "print array_21.mean()\n",
+    "print array_22.mean()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0.8186003803550138\n",
+      "0.9367492806089297\n"
+     ]
+    }
+   ],
+   "source": [
+    "optimizer = GaussianNB()\n",
+    "array_31 = cross_val_score(optimizer, digits_data, digits_target)\n",
+    "array_32 = cross_val_score(optimizer, breast_cancer_data, breast_cancer_target)\n",
+    "print array_31.mean()\n",
+    "print array_32.mean()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def write_answer_1(ans):\n",
+    "    with open(\"answer1.txt\", \"w\") as fout:\n",
+    "        fout.write(str(ans))\n",
+    "def write_answer_2(ans):\n",
+    "    with open(\"answer2.txt\", \"w\") as fout:\n",
+    "        fout.write(str(ans))\n",
+    "        \n",
+    "write_answer_1(array_32.mean())\n",
+    "write_answer_2(array_21.mean())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def write_answer_3(ans):\n",
+    "    with open(\"answer3.txt\", \"w\") as fout:\n",
+    "        fout.write(ans)\n",
+    "write_answer_3('3 4')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.15"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

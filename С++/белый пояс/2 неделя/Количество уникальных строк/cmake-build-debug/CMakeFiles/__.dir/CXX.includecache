@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/2 неделя/Количество уникальных строк/main.cpp
+iostream
+-
+string
+-
+set
+-
+

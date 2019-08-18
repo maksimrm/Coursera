@@ -1,0 +1,3 @@
+/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/2 неделя/Количество уникальных строк/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/2 неделя/Количество уникальных строк/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/2 неделя/Количество уникальных строк/cmake-build-debug/CMakeFiles/__.dir

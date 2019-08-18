@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/3 неделя/Сортировка без регистра/main.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+string
+-
+

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/2 неделя/Средняя температура/main.cpp
+iostream
+-
+vector
+-
+

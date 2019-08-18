@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/2 неделя/Автобусные остановки/main.cpp
+iostream
+-
+map
+-
+string
+-
+vector
+-
+algorithm
+-
+

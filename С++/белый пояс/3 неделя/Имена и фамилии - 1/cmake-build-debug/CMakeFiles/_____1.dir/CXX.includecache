@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/3 неделя/Имена и фамилии - 1/main.cpp
+iostream
+-
+vector
+-
+string
+-
+algorithm
+-
+map
+-
+fstream
+-
+sstream
+-
+
