@@ -1,0 +1,3 @@
+/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/4 неделя/Обратимая функция/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/4 неделя/Обратимая функция/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/4 неделя/Обратимая функция/cmake-build-debug/CMakeFiles/_.dir
