@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/4 неделя/Калькулятор обыкновенных дробей/main.cpp
+iostream
+-
+sstream
+-
+set
+-
+vector
+-
+string
+-
+map
+-
+exception
+-
+

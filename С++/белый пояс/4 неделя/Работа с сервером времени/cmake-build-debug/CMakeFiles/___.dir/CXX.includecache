@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/4 неделя/Работа с сервером времени/main.cpp
+iostream
+-
+exception
+-
+string
+-
+
