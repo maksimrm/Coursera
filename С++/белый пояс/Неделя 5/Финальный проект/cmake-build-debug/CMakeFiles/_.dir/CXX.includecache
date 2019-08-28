@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/Неделя 5/Финальный проект/main.cpp
+iostream
+-
+string
+-
+set
+-
+map
+-
+fstream
+-
+sstream
+-
+iomanip
+-
+
