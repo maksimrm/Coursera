@@ -10,6 +10,11 @@ From these specialization at the moment I have passed one course)
 
 From these specialization at the moment I have passed two courses)
 
+
+## Course 3. Search for structure in data
+### Week 1. Clustarization
+In this week I have to solve problem with billboards location for some company using MeanShift method of clustarization.
+
 Sorry for unsystematic file location in first two courses)) I haven't github when passed them.
 
 
