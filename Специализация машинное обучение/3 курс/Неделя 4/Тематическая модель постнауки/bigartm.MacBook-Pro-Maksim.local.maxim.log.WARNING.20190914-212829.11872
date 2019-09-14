@@ -1,0 +1,22 @@
+Log file created at: 2019/09/14 21:28:29
+Running on machine: MacBook-Pro-Maksim.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0914 21:28:29.860102 107696128 helpers.cc:221] File already exists: new_directory/aaaaaa.batch
+W0914 21:28:29.881250 108232704 helpers.cc:221] File already exists: new_directory/aaaaab.batch
+W0914 21:28:29.885923 108769280 helpers.cc:221] File already exists: new_directory/aaaaac.batch
+W0914 21:28:29.898128 109305856 helpers.cc:221] File already exists: new_directory/aaaaad.batch
+W0914 21:28:29.908965 109842432 helpers.cc:221] File already exists: new_directory/aaaaae.batch
+W0914 21:28:29.921111 110379008 helpers.cc:221] File already exists: new_directory/aaaaaf.batch
+W0914 21:28:29.930490 111988736 helpers.cc:221] File already exists: new_directory/aaaaai.batch
+W0914 21:28:29.941156 111452160 helpers.cc:221] File already exists: new_directory/aaaaah.batch
+W0914 21:28:29.954380 110915584 helpers.cc:221] File already exists: new_directory/aaaaag.batch
+W0914 21:28:29.955504 108769280 helpers.cc:221] File already exists: new_directory/aaaaar.batch
+W0914 21:28:29.978878 112525312 helpers.cc:221] File already exists: new_directory/aaaaaj.batch
+W0914 21:28:29.985194 107696128 helpers.cc:221] File already exists: new_directory/aaaaaq.batch
+W0914 21:28:30.051004 115744768 helpers.cc:221] File already exists: new_directory/aaaaap.batch
+W0914 21:28:30.071858 113061888 helpers.cc:221] File already exists: new_directory/aaaaak.batch
+W0914 21:28:30.083642 113598464 helpers.cc:221] File already exists: new_directory/aaaaal.batch
+W0914 21:28:30.095443 115208192 helpers.cc:221] File already exists: new_directory/aaaaao.batch
+W0914 21:28:30.116701 114671616 helpers.cc:221] File already exists: new_directory/aaaaan.batch
+W0914 21:28:30.135044 114135040 helpers.cc:221] File already exists: new_directory/aaaaam.batch
+W0914 21:49:24.617424 478397888 check_messages.h:1121] Inconsistent fields size in ThetaMatrix: 1728 vs 0 vs 1728 vs 0;

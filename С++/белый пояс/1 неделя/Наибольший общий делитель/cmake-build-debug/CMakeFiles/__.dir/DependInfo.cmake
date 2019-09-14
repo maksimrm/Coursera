@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/Наибольший общий делитель/main.cpp" "/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/Наибольший общий делитель/cmake-build-debug/CMakeFiles/__.dir/main.cpp.o"
+  "/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/1 неделя/Наибольший общий делитель/main.cpp" "/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/1 неделя/Наибольший общий делитель/cmake-build-debug/CMakeFiles/__.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

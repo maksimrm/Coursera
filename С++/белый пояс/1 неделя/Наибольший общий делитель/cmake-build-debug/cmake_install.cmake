@@ -1,4 +1,4 @@
-# Install script for directory: /Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/Наибольший общий делитель
+# Install script for directory: /Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/1 неделя/Наибольший общий делитель
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/Наибольший общий делитель/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/1 неделя/Наибольший общий делитель/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

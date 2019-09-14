@@ -99,12 +99,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/Platform/Darwin.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/Platform/UnixPaths.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/ProcessorCount.cmake"
-  "CMakeFiles/3.14.3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.14.3/CMakeSystem.cmake"
+  "CMakeFiles/3.14.5/CMakeCCompiler.cmake"
+  "CMakeFiles/3.14.5/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.14.5/CMakeSystem.cmake"
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
-  "/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/Наибольший общий делитель/CMakeLists.txt"
+  "/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/1 неделя/Наибольший общий делитель/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -115,11 +115,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.14.3/CMakeSystem.cmake"
-  "CMakeFiles/3.14.3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.14.3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.14.5/CMakeSystem.cmake"
+  "CMakeFiles/3.14.5/CMakeCCompiler.cmake"
+  "CMakeFiles/3.14.5/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.14.5/CMakeCCompiler.cmake"
+  "CMakeFiles/3.14.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

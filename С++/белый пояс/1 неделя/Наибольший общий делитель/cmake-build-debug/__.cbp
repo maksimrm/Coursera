@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/Наибольший общий делитель/cmake-build-debug"/>
+				<Option working_dir="/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/1 неделя/Наибольший общий делитель/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/Наибольший общий делитель/cmake-build-debug"/>
+				<Option working_dir="/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/1 неделя/Наибольший общий делитель/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/Наибольший общий делитель/cmake-build-debug"/>
+				<Option working_dir="/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/1 неделя/Наибольший общий делитель/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="__">
-				<Option output="/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/Наибольший общий делитель/cmake-build-debug/__" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/Наибольший общий делитель/cmake-build-debug"/>
+				<Option output="/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/1 неделя/Наибольший общий делитель/cmake-build-debug/__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/1 неделя/Наибольший общий делитель/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 __"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 __"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="__/fast">
-				<Option output="/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/Наибольший общий делитель/cmake-build-debug/__" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/Наибольший общий делитель/cmake-build-debug"/>
+				<Option output="/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/1 неделя/Наибольший общий делитель/cmake-build-debug/__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/1 неделя/Наибольший общий делитель/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,17 +73,17 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 __/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый\ пояс/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 __/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/maxim/Documents/Git\ Hub/Coursera/С++/белый\ пояс/1\ неделя/Наибольший\ общий\ делитель/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/Наибольший общий делитель/main.cpp">
+		<Unit filename="/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/1 неделя/Наибольший общий делитель/main.cpp">
 			<Option target="__"/>
 		</Unit>
-		<Unit filename="/Users/maksimeliseev/Documents/Python/Git_hub/Coursera/С++/белый пояс/Наибольший общий делитель/CMakeLists.txt">
+		<Unit filename="/Users/maxim/Documents/Git Hub/Coursera/С++/белый пояс/1 неделя/Наибольший общий делитель/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

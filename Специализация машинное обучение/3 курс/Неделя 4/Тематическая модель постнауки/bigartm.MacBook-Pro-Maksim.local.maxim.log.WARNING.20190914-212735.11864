@@ -1,0 +1,21 @@
+Log file created at: 2019/09/14 21:27:35
+Running on machine: MacBook-Pro-Maksim.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0914 21:27:35.018626 230117376 helpers.cc:221] File already exists: new_directory/aaaaaa.batch
+W0914 21:27:35.035312 231727104 helpers.cc:221] File already exists: new_directory/aaaaab.batch
+W0914 21:27:35.050449 231190528 helpers.cc:221] File already exists: new_directory/aaaaac.batch
+W0914 21:27:35.058980 233336832 helpers.cc:221] File already exists: new_directory/aaaaad.batch
+W0914 21:27:35.066339 230653952 helpers.cc:221] File already exists: new_directory/aaaaae.batch
+W0914 21:27:35.080819 229580800 helpers.cc:221] File already exists: new_directory/aaaaaf.batch
+W0914 21:27:35.090487 233873408 helpers.cc:221] File already exists: new_directory/aaaaai.batch
+W0914 21:27:35.098487 232800256 helpers.cc:221] File already exists: new_directory/aaaaag.batch
+W0914 21:27:35.108239 232263680 helpers.cc:221] File already exists: new_directory/aaaaah.batch
+W0914 21:27:35.136904 234409984 helpers.cc:221] File already exists: new_directory/aaaaaj.batch
+W0914 21:27:35.143307 231727104 helpers.cc:221] File already exists: new_directory/aaaaar.batch
+W0914 21:27:35.166297 230117376 helpers.cc:221] File already exists: new_directory/aaaaaq.batch
+W0914 21:27:35.222375 234946560 helpers.cc:221] File already exists: new_directory/aaaaak.batch
+W0914 21:27:35.249075 235483136 helpers.cc:221] File already exists: new_directory/aaaaal.batch
+W0914 21:27:35.261581 237629440 helpers.cc:221] File already exists: new_directory/aaaaap.batch
+W0914 21:27:35.280112 237092864 helpers.cc:221] File already exists: new_directory/aaaaao.batch
+W0914 21:27:35.295776 236556288 helpers.cc:221] File already exists: new_directory/aaaaan.batch
+W0914 21:27:35.311529 236019712 helpers.cc:221] File already exists: new_directory/aaaaam.batch

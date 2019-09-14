@@ -1,0 +1,137 @@
+Log file created at: 2019/09/14 21:27:34
+Running on machine: MacBook-Pro-Maksim.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0914 21:27:34.992842 391620032 c_interface.cc:127] Logging enabled to .
+I0914 21:27:34.993969 391620032 c_interface.cc:128] BigARTM version: v0.10.0
+I0914 21:27:34.994135 391620032 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0914 21:27:34.994169 391620032 c_interface.cc:274] Creating MasterModel (id=1)...
+I0914 21:27:34.996155 391620032 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 16
+W0914 21:27:35.018626 230117376 helpers.cc:221] File already exists: new_directory/aaaaaa.batch
+W0914 21:27:35.035312 231727104 helpers.cc:221] File already exists: new_directory/aaaaab.batch
+W0914 21:27:35.050449 231190528 helpers.cc:221] File already exists: new_directory/aaaaac.batch
+W0914 21:27:35.058980 233336832 helpers.cc:221] File already exists: new_directory/aaaaad.batch
+W0914 21:27:35.066339 230653952 helpers.cc:221] File already exists: new_directory/aaaaae.batch
+W0914 21:27:35.080819 229580800 helpers.cc:221] File already exists: new_directory/aaaaaf.batch
+W0914 21:27:35.090487 233873408 helpers.cc:221] File already exists: new_directory/aaaaai.batch
+W0914 21:27:35.098487 232800256 helpers.cc:221] File already exists: new_directory/aaaaag.batch
+W0914 21:27:35.108239 232263680 helpers.cc:221] File already exists: new_directory/aaaaah.batch
+W0914 21:27:35.136904 234409984 helpers.cc:221] File already exists: new_directory/aaaaaj.batch
+W0914 21:27:35.143307 231727104 helpers.cc:221] File already exists: new_directory/aaaaar.batch
+W0914 21:27:35.166297 230117376 helpers.cc:221] File already exists: new_directory/aaaaaq.batch
+W0914 21:27:35.222375 234946560 helpers.cc:221] File already exists: new_directory/aaaaak.batch
+W0914 21:27:35.249075 235483136 helpers.cc:221] File already exists: new_directory/aaaaal.batch
+W0914 21:27:35.261581 237629440 helpers.cc:221] File already exists: new_directory/aaaaap.batch
+W0914 21:27:35.280112 237092864 helpers.cc:221] File already exists: new_directory/aaaaao.batch
+W0914 21:27:35.295776 236556288 helpers.cc:221] File already exists: new_directory/aaaaan.batch
+W0914 21:27:35.311529 236019712 helpers.cc:221] File already exists: new_directory/aaaaam.batch
+I0914 21:27:35.339337 391620032 c_interface.cc:375] Pass e08dd56e-4a0b-43c0-8cdd-7da43d707f57 to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0914 21:27:35.339507 391620032 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=e08dd56e-4a0b-43c0-8cdd-7da43d707f57, data_path=new_directory, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I0914 21:27:35.339733 391620032 dictionary_operations.cc:265] Found 18 batches in 'new_directory' folder
+I0914 21:27:35.476918 391620032 dictionary_operations.cc:331] Find 26866 unique tokens in 1728 items
+I0914 21:27:35.513583 391620032 dictionary_operations.cc:611] Dictionary name='e08dd56e-4a0b-43c0-8cdd-7da43d707f57' contains entries: author:539; text:26327; 
+I0914 21:27:42.957039 391620032 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=30, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=yes, cache_theta=yes, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0914 21:27:42.957064 391620032 instance.cc:401] MasterModelConfig.processors_count is automatically set to 16
+I0914 21:27:42.957155 229580800 processor.cc:58] Processor thread started
+I0914 21:27:42.957180 230117376 processor.cc:58] Processor thread started
+I0914 21:27:42.957185 230653952 processor.cc:58] Processor thread started
+I0914 21:27:42.957196 231727104 processor.cc:58] Processor thread started
+I0914 21:27:42.957204 232263680 processor.cc:58] Processor thread started
+I0914 21:27:42.957214 232800256 processor.cc:58] Processor thread started
+I0914 21:27:42.957203 231190528 processor.cc:58] Processor thread started
+I0914 21:27:42.957227 233336832 processor.cc:58] Processor thread started
+I0914 21:27:42.957247 233873408 processor.cc:58] Processor thread started
+I0914 21:27:42.957299 234409984 processor.cc:58] Processor thread started
+I0914 21:27:42.957317 234946560 processor.cc:58] Processor thread started
+I0914 21:27:42.957319 235483136 processor.cc:58] Processor thread started
+I0914 21:27:42.957334 236019712 processor.cc:58] Processor thread started
+I0914 21:27:42.957355 236556288 processor.cc:58] Processor thread started
+I0914 21:27:42.957365 237092864 processor.cc:58] Processor thread started
+I0914 21:27:42.957376 391620032 c_interface.cc:274] Creating MasterModel (id=2)...
+I0914 21:27:42.957386 237629440 processor.cc:58] Processor thread started
+I0914 21:27:42.980244 234946560 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:42.980248 230117376 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:42.980254 236019712 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:42.980267 229580800 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:42.980267 232800256 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:42.980278 233336832 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:42.980289 233873408 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:42.980298 230653952 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:42.980293 236556288 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:42.980293 231190528 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:42.980281 232263680 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:42.980294 234409984 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:42.980294 237629440 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:42.980295 235483136 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:42.980345 237092864 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:42.980342 231727104 processor.cc:74] No data in processing queue, waiting...
+I0914 21:27:44.329677 391620032 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0914 21:27:44.329699 391620032 c_interface.cc:274] Creating MasterModel (id=3)...
+I0914 21:27:44.330207 391620032 c_interface.cc:375] Pass postnauka_dictionary to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0914 21:27:44.330325 391620032 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=postnauka_dictionary, data_path=new_directory, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I0914 21:27:44.330561 391620032 dictionary_operations.cc:265] Found 18 batches in 'new_directory' folder
+I0914 21:27:44.473522 391620032 dictionary_operations.cc:331] Find 26866 unique tokens in 1728 items
+I0914 21:27:44.508029 391620032 dictionary_operations.cc:611] Dictionary name='postnauka_dictionary' contains entries: author:539; text:26327; 
+I0914 21:27:44.508265 391620032 c_interface.cc:375] Pass pwt to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0914 21:27:44.508293 391620032 c_interface.cc:375] Pass nwt to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0914 21:27:44.508555 391620032 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=postnauka_dictionary, topic_name_size=30, seed=-1 to MN4artm4core15MasterComponentEFvRKNS_19InitializeModelArgsEE
+I0914 21:27:44.657058 391620032 master_component.cc:663] InitializeModel() created matrix pwt with 30 topics and 26866 tokens; 
+I0914 21:27:44.657313 391620032 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=postnauka_dictionary, topic_name_size=30, seed=-1 to MN4artm4core15MasterComponentEFvRKNS_19InitializeModelArgsEE
+I0914 21:27:44.807349 391620032 master_component.cc:663] InitializeModel() created matrix nwt with 30 topics and 26866 tokens; 
+I0914 21:27:44.807538 391620032 c_interface.cc:231] ArtmCopyRequestedMessage is copying 309 bytes...
+I0914 21:27:45.977948 391620032 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=30, score_config_size=2, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=yes, cache_theta=yes, opt_for_avx=yes, disk_cache_path= to MN4artm4core15MasterComponentEFvRKNS_17MasterModelConfigEE
+I0914 21:27:45.977982 391620032 instance.cc:401] MasterModelConfig.processors_count is automatically set to 16
+I0914 21:27:45.978385 391620032 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=30, score_config_size=3, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=yes, cache_theta=yes, opt_for_avx=yes, disk_cache_path= to MN4artm4core15MasterComponentEFvRKNS_17MasterModelConfigEE
+I0914 21:27:45.978405 391620032 instance.cc:401] MasterModelConfig.processors_count is automatically set to 16
+I0914 21:28:10.958025 391620032 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0914 21:28:10.958081 391620032 c_interface.cc:274] Creating MasterModel (id=4)...
+I0914 21:28:10.958401 391620032 c_interface.cc:375] Pass postnauka_dictionary to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0914 21:28:10.963994 391620032 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=postnauka_dictionary, data_path=new_directory, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I0914 21:28:10.964231 391620032 dictionary_operations.cc:265] Found 18 batches in 'new_directory' folder
+I0914 21:28:11.108225 391620032 dictionary_operations.cc:331] Find 26866 unique tokens in 1728 items
+I0914 21:28:11.145437 391620032 dictionary_operations.cc:611] Dictionary name='postnauka_dictionary' contains entries: author:539; text:26327; 
+I0914 21:28:11.145666 391620032 c_interface.cc:375] Pass pwt to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0914 21:28:11.167320 391620032 c_interface.cc:375] Pass nwt to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0914 21:28:11.187816 391620032 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=postnauka_dictionary, topic_name_size=30, seed=-1 to MN4artm4core15MasterComponentEFvRKNS_19InitializeModelArgsEE
+I0914 21:28:11.339104 391620032 master_component.cc:663] InitializeModel() created matrix pwt with 30 topics and 26866 tokens; 
+I0914 21:28:11.339361 391620032 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=postnauka_dictionary, topic_name_size=30, seed=-1 to MN4artm4core15MasterComponentEFvRKNS_19InitializeModelArgsEE
+I0914 21:28:11.490085 391620032 master_component.cc:663] InitializeModel() created matrix nwt with 30 topics and 26866 tokens; 
+I0914 21:28:11.490233 391620032 c_interface.cc:231] ArtmCopyRequestedMessage is copying 373 bytes...
+I0914 21:28:24.763137 391620032 c_interface.cc:375] Pass postnauka_dictionary to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0914 21:28:24.769245 391620032 c_interface.cc:339] Disposing MasterComponent (id=3)...
+I0914 21:28:24.769280 391620032 c_interface.cc:375] Pass postnauka_dictionary to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0914 21:28:24.769300 391620032 c_interface.cc:339] Disposing MasterComponent (id=4)...
+I0914 21:28:24.769477 237629440 processor.cc:66] Processor thread stopped
+I0914 21:28:24.769490 237629440 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.770743 237092864 processor.cc:66] Processor thread stopped
+I0914 21:28:24.770768 237092864 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.771961 236556288 processor.cc:66] Processor thread stopped
+I0914 21:28:24.771982 236556288 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.773263 236019712 processor.cc:66] Processor thread stopped
+I0914 21:28:24.773279 236019712 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.774530 235483136 processor.cc:66] Processor thread stopped
+I0914 21:28:24.774544 235483136 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.775768 234946560 processor.cc:66] Processor thread stopped
+I0914 21:28:24.775784 234946560 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.777082 234409984 processor.cc:66] Processor thread stopped
+I0914 21:28:24.777093 234409984 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.778333 233873408 processor.cc:66] Processor thread stopped
+I0914 21:28:24.778348 233873408 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.779536 233336832 processor.cc:66] Processor thread stopped
+I0914 21:28:24.779551 233336832 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.780792 232800256 processor.cc:66] Processor thread stopped
+I0914 21:28:24.780803 232800256 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.782076 232263680 processor.cc:66] Processor thread stopped
+I0914 21:28:24.782088 232263680 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.783341 231727104 processor.cc:66] Processor thread stopped
+I0914 21:28:24.783352 231727104 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.784606 231190528 processor.cc:66] Processor thread stopped
+I0914 21:28:24.784617 231190528 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.785804 230653952 processor.cc:66] Processor thread stopped
+I0914 21:28:24.785815 230653952 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.786834 230117376 processor.cc:66] Processor thread stopped
+I0914 21:28:24.786845 230117376 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.787957 229580800 processor.cc:66] Processor thread stopped
+I0914 21:28:24.787972 229580800 processor.cc:67] Total number of processed batches: 0
+I0914 21:28:24.820137 391620032 c_interface.cc:339] Disposing MasterComponent (id=2)...
+I0914 21:28:24.820263 391620032 c_interface.cc:375] Pass e08dd56e-4a0b-43c0-8cdd-7da43d707f57 to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0914 21:28:24.828642 391620032 c_interface.cc:339] Disposing MasterComponent (id=1)...
